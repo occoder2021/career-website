@@ -5,7 +5,7 @@ import sqlalchemy
 #import pymysql
 from sqlalchemy import create_engine, text
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="gcp-sql-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] =  "gcp-sql-key.json"
 # initialize Connector object 
 connector = Connector()
 
